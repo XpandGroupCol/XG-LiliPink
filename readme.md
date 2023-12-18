@@ -1,23 +1,28 @@
-# 1. Información del dataset 'Report.csv'
+# ¿CÓMO USAR ESTE CÓDIGO?
+El código está escrito en Python, y se necesita contar con la librería pandas instalada. Está escrito en un Jupyter Notebook, por lo que se puede ejecutar en Google Colab, VSCode o en cualquier otro entorno de desarrollo de Python.
+
+No es necesario correr todos los bloques de código, lea bien la descripción de cada bloque, y a partir de ahí, ejecute el código que necesite.
+
+## Información del dataset 'Report.csv'
 
 El dataset está en un archivo CSV. Lo datos son transacciónes en el e-commerce (VTEX) de la tienda virtual de LiliPink - YOI.
 
 Las columnas son las siguientes:
 
-## Información de la compra
+### Información de la compra
 0.  **Origin:** El origen de la compra.
 1.  **Order:** Número de la orden de compra.
 2.  **Sequence:** Secuencia de la orden de compra.
 3.  **Creation Date:** Fecha de creación de la compra en el sistema.
 
-## Información del cliente
+### Información del cliente
 4.  **Client Name:** Nombre del cliente.
 5.  **Client Last Name:** Apellido del cliente.
 6.  **Client Document:** Documento del cliente.
 7.  **Email:** Dirección de correo electrónico del cliente.
 8.  **Phone:** Número de teléfono del cliente
 
-## Información del envío
+### Información del envío
 9. **UF:** Departamento de la dirección de envío.
 10. **City:** Ciudad a la que se envía.
 11. **Address Identification:** ID de la dirección de envío.
@@ -32,17 +37,17 @@ Las columnas son las siguientes:
 
 19. **Last Change Date:** Fecha de la última modificación de la orden de compra.
 
-## Información de la campaña de marketing
+### Información de la campaña de marketing
 20. **UtmMedium:** Medio de la campaña de marketing.
 21. **UtmSource:** Fuente de la campaña de marketing.
 22. **UtmCampaign:** Campaña de marketing.
 23. **Coupon:** Cupón de descuento.
 
-## Información de pago
+### Información de pago
 24. **Payment System Name:** Nombre del sistema de pago.
 25. **Installments:** Número de cuotas.
 
-## Información del producto
+### Información del producto
 26. **Quantity_SKU:** Cantidad de productos por SKU.
 27. **ID_SKU:** SKU del producto.
 28. **Category Ids Sku:** ID de la categoría del producto.
@@ -59,8 +64,3 @@ Las columnas son las siguientes:
 39. **Acquirer:** Adquirente.
 40. **Cancellation Reason:** Razón de cancelación.
 41. **marketingTags:** Etiquetas de marketing.
-
-# ¿CÓMO USAR ESTE CÓDIGO?
-El código está escrito en Python, y se necesita contar con la librería pandas instalada. Está escrito en un Jupyter Notebook, por lo que se puede ejecutar en Google Colab, VSCode o en cualquier otro entorno de desarrollo de Python.
-
-No es necesario correr todos los bloques de código, lea bien la descripción de cada bloque, y a partir de ahí, ejecute el código que necesite.
