@@ -1,6 +1,6 @@
-# Información del dataset 'Lili_Pink_Improved.csv'
+# 1. Información del dataset 'Report.csv'
 
-El dataset está en un archivo CSV, que contiene datos desde el mes de agosto de 2021, hasta las primeras semanas de octubre del año 2023. Lo datos son transacciónes en el e-commerce (VTEX) de la tienda virtual de LiliPink - YOI. La base de datos recuperada se compone de 42 columnas y 630.577 filas, una fila por cada producto vendido.
+El dataset está en un archivo CSV. Lo datos son transacciónes en el e-commerce (VTEX) de la tienda virtual de LiliPink - YOI.
 
 Las columnas son las siguientes:
 
